@@ -1,0 +1,82 @@
+﻿@model ServiSolutions_Xamarin.Models.City
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>City</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Department.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StateId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StateId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City_Details)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City_Details)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Create_User)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Create_User)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_Create)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Create)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modify_User)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modify_User)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_Modify)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Modify)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CityId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

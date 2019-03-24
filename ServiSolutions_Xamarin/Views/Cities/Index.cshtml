@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ServiSolutions_Xamarin.Models.City>
+
+@{
+    ViewBag.Title = "Cities";
+}
+
+<h2>Cities</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", new { }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StateId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.City_Details)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Create_User)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Create)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Modify_User)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Modify)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StateId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City_Details)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Create_User)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Create)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Modify_User)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Modify)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CityId }, new { @class = "btn btn-warning" }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CityId }, new { @class = "btn btn-info" }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CityId }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
