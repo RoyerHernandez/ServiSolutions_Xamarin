@@ -18,11 +18,16 @@ namespace ServiSolutions_Xamarin.Models
         public string City_Name { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Range(1, double.MaxValue, ErrorMessage = "You must select a {0}")]
         public int DepartmentId { get; set; }
 
         public virtual Department Department { get; set; }
 
+        [Required(ErrorMessage = "El campo {0} es requerido")]
+        [Range(1, double.MaxValue, ErrorMessage = "You must select a {0}")]
         public int StateId { get; set; }
+
+        public virtual State State { get; set; }
 
         public string City_Details { get; set; }
 

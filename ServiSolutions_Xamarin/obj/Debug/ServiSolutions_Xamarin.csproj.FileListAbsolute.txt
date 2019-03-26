@@ -134,8 +134,8 @@ C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\bin\es
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\obj\Debug\ServiSolutions_Xamarin.csprojAssemblyReference.cache
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\obj\Debug\ServiSolutions_Xamarin.csproj.CoreCompileInputs.cache
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\obj\Debug\ServiSolutions_Xamarin.csproj.CopyComplete
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\obj\Debug\ServiSolutions_Xamarin.dll
 C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\obj\Debug\ServiSolutions_Xamarin.pdb
+C:\Users\royer\source\repos\ServiSolutions_Xamarin\ServiSolutions_Xamarin\obj\Debug\ServiSolutions_Xamarin.csprojAssemblyReference.cache

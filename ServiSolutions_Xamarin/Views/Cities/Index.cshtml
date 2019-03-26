@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<ServiSolutions_Xamarin.Models.City>
 
 @{
-    ViewBag.Title = "Cities";
+    ViewBag.Title = "City";
 }
 
-<h2>Cities</h2>
+<h2>City</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create", new { }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Create New", "Create", new { }, new { @Class = "btn btn-primary" })
 </p>
 <table class="table">
     <tr>
@@ -15,10 +15,10 @@
             @Html.DisplayNameFor(model => model.Department.Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.City_Name)
+            @Html.DisplayNameFor(model => model.State.State_Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.StateId)
+            @Html.DisplayNameFor(model => model.City_Name)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.City_Details)
@@ -44,10 +44,10 @@
             @Html.DisplayFor(modelItem => item.Department.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.City_Name)
+            @Html.DisplayFor(modelItem => item.State.State_Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.StateId)
+            @Html.DisplayFor(modelItem => item.City_Name)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.City_Details)
